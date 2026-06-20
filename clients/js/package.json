@@ -1,6 +1,6 @@
 {
     "name": "@solana-program/address-lookup-table",
-    "version": "0.11.0",
+    "version": "0.12.1",
     "description": "The Solana Address Lookup Table program and its clients",
     "homepage": "https://github.com/solana-program/address-lookup-table#readme",
     "bugs": {
@@ -45,10 +45,10 @@
     },
     "devDependencies": {
         "@solana-config/oxc": "^0.1.1",
-        "@solana/kit": "^6.4.0",
+        "@solana/kit": "^6.10.0",
         "@solana/kit-plugin-litesvm": "^0.10.0",
         "@solana/kit-plugin-signer": "^0.10.0",
-        "@types/node": "^25",
+        "@types/node": "^26",
         "oxfmt": "^0.55.0",
         "oxlint": "^1.70.0",
         "oxlint-tsgolint": "^0.23.0",
@@ -59,7 +59,7 @@
         "vitest": "^4.0.15"
     },
     "peerDependencies": {
-        "@solana/kit": "^6.4.0"
+        "@solana/kit": "^6.10.0"
     },
     "engines": {
         "node": ">=24.0.0"
